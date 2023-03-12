@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 36rem;
+    margin-top: 3.5%;
+    display: flex;
+
+  }
+
+  .desContainer {
+    padding-left: 6%;
+    padding-right: 12%;
+  }
+
+  .labelContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .label {
+    background-color: #1e7c09;
+    color: white;
+    font-size: 12px;
+    border-radius: 2%;
+    padding: 3px 5px;
+    margin: 5px;
+  }
+
+  .label2 {
+    background-color: #C98912;
+    color: white;
+    font-size: 12px;
+    border-radius: 2%;
+    padding: 3px 5px;
+    margin: 5px;
+  }
+
+  .label3 {
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    border-radius: 2%;
+    padding: 3px 5px;
+    margin: 5px;
+  }
+
+
+  .starsContainer {
+    display: flex;
+    align-items: center;
+  }
+  .stars {
+      display: flex;
+  }
+
+  .oldPrice {
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #888787;
+  }
+
+  .price {
+    color: #C40835;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .off {
+    color: #C40835;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .discount {
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C40835;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+  }
+
+  .priceContainer {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .paymentC {
+    display: flex;
+  }
+
+  .bottlePriceCont {
+    margin-top: 10%;
+    margin-bottom: 4%;
+  }
+
+  .bottlePriceTitle {
+    font-size: 13px;
+    color: #545454;
+    font-weight: bold;
+  }
+
+  .bottlePrice {
+    font-size: 17px;
+    color: #C40835;
+    font-weight: bold;
+  }
+
+  .btnContainer {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .btn {
+    height: 46px;
+    width: 228px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .counterBtn {
+    height: 46px;
+    width: 22px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .counterNumber {
+    height: 46px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  .counterContainer {
+    display: flex;
+    margin: 5px;
+  }
+
+
+  @media only screen and (min-width: 320px) and (max-width: 667px) {
+    .container {
+      padding-left: 4%;
+      padding-right: 4%;
+      margin-top: 3.5%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+
+    .img {
+      height: 350px;
+      width: 350px;
+    }
+
+  }
+ 
